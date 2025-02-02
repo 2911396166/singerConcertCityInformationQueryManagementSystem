@@ -1,0 +1,111 @@
+body {
+  background-color: #808080;
+  /* 清空默认 */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #F0EFF4;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+}
+
+.header {
+  background: #0166cc;
+  padding: 45px 20px;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+}
+
+.content {
+  margin: 20px 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.contentImg {
+  margin: 10px auto;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+}
+
+.content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.contentText {
+  color: rgb(225, 60, 57);
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.inputBox {
+  background-color: white;
+}
+
+.search_box {
+  padding: 10px;
+}
+
+.query-button {
+  background-color: #1aad19;
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.query-button:active {
+  color: hsla(0, 0%, 100%, .6);
+  background-color: #179b16;
+}
+
+.inputBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* 控制标签和输入框的间距 */
+  padding: 10px;
+  background-color: white;
+  width: 100%;
+  /* 浅灰色背景 */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.singer-label {
+  font-size: 14px;
+  color: #000;
+  width: 105px;
+}
+
+.input-field {
+  flex: 1;
+  width: 250px;
+  /* 可根据需求调整宽度 */
+  height: 20px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.input-field::placeholder {
+  color: #bbb;
+}

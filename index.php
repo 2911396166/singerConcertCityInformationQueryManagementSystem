@@ -54,7 +54,7 @@ if (!empty($singer)) {
             <label for="singer" class="singer-label">歌手</label>
             <input type="text" id="singer" name="singer" class="input-field" placeholder="请输入歌手名字" required>
         <?php  
-    //如果guanggao=no 则跳转到result.php?guanggao=no
+    //纯净模式，无广告状态，如果guanggao=no 则跳转到result.php?guanggao=no
     if($guanggao == 'no'){
         echo '<input type="text"  name="guanggao" style="display: none;" value="no">';
     }

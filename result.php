@@ -116,11 +116,8 @@ $concerts = $result->fetch_all(MYSQLI_ASSOC);
             style="display: <?php echo $guanggao == 'no' ? 'none' : 'block'; ?>;"
             >
                 <tr>
-                    <td>朵儿票务</td>
-                    <td>5️⃣年票务经验 :朵儿票务</br>
-                    全国都👌代拍 录信息 邀请函🈶</br>
-                微信号：DDove18</br>
-                <img src="./assets/img/wx.jpg" alt="朵儿票务" style="width: 100%;height: 100%;">
+                    <td>这里是广告区域</td>
+                    <td>我是一个广告区域，请在前端result.php修改
             </td>
                 </tr>
             </table>
